@@ -1,0 +1,24 @@
+BigO: is way of comparing two sets of codes.
+    :is awy if comparing two sets of code mathimatically about how efficient they   		 run
+    Time complexity:It is how long the code takes to finish runing.
+    -It is not mesured in time rather it is measured in number of operation it takes to complete the task.
+    Space complexity:How much memory is taken by a program to takeover running..
+    
+    Ω,Θ,O	
+    for best case=omega
+    for average case = theta.
+    for worst case = omicron
+ O(n):
+    .for n(any number) there is n number of operation
+    .so that as n increases number of operation increases so O(n) is proportional ,to be  straight line.
+    
+T-he O(n) notation means that the runtime complexity of your algorithm has a linear relationship with the size of input data. If the size of input data is increased by 2, then the runtime complexity of your algorithm will be increased by 2 as well.
+    
+    
+    Drop Constant: This concept is what makes big O notation awesome! Whenever big O complexity is calculated, you get rid of the constants because when dealing with big O, we're identifying the results as N gets arbitrarily large. As N gets larger, adding 250 or dividing by 2 has less of a significant effect.
+    O(n^2):
+O(N²) represents the complexity of an algorithm, whose performance is proportional to the square of the size of the input elements. It is generally quite slow: If the input array has 1 element it will do 1 operation, if it has 10 elements it will do 100 operations, and so on.
+
+Droping non-dominant
+
+Since big O is also not concerned with non-dominant terms, we drop the n (quadratic wins since it is worse than linear time). Throwing out non-dominant terms is the second rule to follow when analyzing the run time of an algorithm. In the end, O(n² + n) gives us O(n²) .
